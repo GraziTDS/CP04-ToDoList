@@ -7,7 +7,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.lifecycle.viewmodel.compose.viewModel
 import grazitds.com.example.to_do_list.navigation.AppNavigation
-import grazitds.com.example.to_do_list.ui.theme.FiaptodolistTheme
+import grazitds.com.example.to_do_list.ui.theme.TodolistTheme
 import grazitds.com.example.to_do_list.viewmodel.TarefaViewModel
 
 class MainActivity : ComponentActivity() {
@@ -15,20 +15,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            FiaptodolistTheme {
+            TodolistTheme {
                 val viewModel: TarefaViewModel = viewModel(
                     factory = TarefaViewModel.factory(applicationContext)
                 )
                 AppNavigation(viewModel = viewModel)
             }
         }
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    TodolistTheme {
-        Greeting("Android")
     }
 }
