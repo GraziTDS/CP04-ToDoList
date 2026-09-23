@@ -1,11 +1,5 @@
 # To-Do List
 
-![Kotlin](https://img.shields.io/badge/Kotlin-2.2.10-7F52FF?logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-BOM%202026.02.01-4285F4?logo=jetpackcompose&logoColor=white)
-![Room](https://img.shields.io/badge/Room-2.7.1-3DDC84?logo=android&logoColor=white)
-![minSdk](https://img.shields.io/badge/minSdk-24-blue)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
 Aplicativo Android de lista de tarefas (to-do list) desenvolvido como projeto didático para a disciplina de Sistemas de Informação da FIAP. Construído com **Kotlin**, **Jetpack Compose** e **Room**, seguindo o padrão arquitetural **MVVM**.
 
 ## Funcionalidades
@@ -80,11 +74,3 @@ O app tem duas telas, conectadas via Navigation Compose e compartilhando a mesma
 
 - **Lista de tarefas** — tela inicial, exibe todas as tarefas ordenadas por prazo.
 - **Formulário** — criação/edição de uma tarefa, incluindo seleção opcional de data e horário.
-
-## Autor
-
-GraziTDS
-
-## Licença
-
-Este projeto é distribuído sob a licença MIT.
