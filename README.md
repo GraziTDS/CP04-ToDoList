@@ -35,8 +35,6 @@ app/src/main/java/grazitds/com/example/to_do_list/
 └── util/           # Funções puras auxiliares (formatação/conversão de data e hora)
 ```
 
-Uma explicação detalhada e comparada da arquitetura (MVC, MVP, MVI e MVVM), com trechos de código reais do projeto e diagramas, está em **[ARQUITETURA-MVVM.md](ARQUITETURA-MVVM.md)**.
-
 ## Pré-requisitos
 
 - [Android Studio](https://developer.android.com/studio) (Ladybug ou mais recente)
