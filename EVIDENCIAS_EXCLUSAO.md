@@ -2,7 +2,7 @@
 
 Sequência de telas do emulador demonstrando o fluxo de confirmação antes da exclusão de uma tarefa.
 
-> ⚠️ Faltam 2 dos 5 prints exigidos (itens 3 e 4 abaixo). Veja a seção "Pendências" no fim deste arquivo.
+> ⚠️ Falta 1 dos 5 prints exigidos (item 3 abaixo). Veja a seção "Pendências" no fim deste arquivo.
 
 ## 1. Lista antes da exclusão
 
@@ -18,7 +18,7 @@ _Pendente — falta capturar a lista logo depois de tocar em **Cancelar** no di�
 
 ## 4. Nova abertura do diálogo
 
-_Pendente — falta capturar o diálogo aberto novamente (tocando na lixeira de novo) após o cancelamento._
+![Diálogo reaberto](docs/images/exclusao/novaabertura.png)
 
 ## 5. Resultado após confirmar a exclusão
 
@@ -28,5 +28,6 @@ _Pendente — falta capturar o diálogo aberto novamente (tocando na lixeira de 
 
 ## Pendências
 
-- Faltam os prints dos itens **3** (resultado ao cancelar) e **4** (diálogo reaberto). Salve-os em `docs/images/exclusao/` e me avise para eu atualizar este arquivo.
+- Falta o print do item **3** (resultado ao cancelar): a **lista**, sem o diálogo, logo após tocar em Cancelar — mostrando a tarefa intacta. Salve em `docs/images/exclusao/` e avise para eu atualizar este arquivo.
+- `docs/images/exclusao/cancelar.png` foi enviado, mas mostra o diálogo ainda aberto (mesmo estado do item 2/4), não o resultado do cancelamento — por isso não está referenciado aqui.
 - `docs/images/exclusao/criarNota.png` foi enviado mas mostra a tela de **criação de tarefa**, que não faz parte da sequência exigida (lista → diálogo → cancelar → diálogo → excluir). Não está referenciado aqui; pode remover o arquivo ou deixá-lo na pasta, como preferir.
